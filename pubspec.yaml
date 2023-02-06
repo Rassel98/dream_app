@@ -1,0 +1,38 @@
+name: dream_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0-255.2.beta <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  http:
+  intl:
+  image_picker:
+  shared_preferences:
+  loading_animation_widget: ^1.2.0+4
+  progress_dialog_null_safe: ^1.0.7
+  connectivity_plus: ^3.0.2
+  cached_network_image: ^3.2.3
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+#    - assets/icons/
+#    - assets/svgs/
+  fonts:
+    - family: HindSiliguri
+      fonts:
+        - asset: assets/fonts/HindSiliguri-Medium.ttf
+  uses-material-design: true
+
